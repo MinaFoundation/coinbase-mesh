@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "codegen": "openapi-generator generate -i https://raw.githubusercontent.com/coinbase/mesh-specifications/refs/heads/master/api.yaml -g rust -o ./generated",
+    "copy_to_src": "mv generated/src/apis generated/src/models generated/src/lib.rs src"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.13"
+  }
+}
