@@ -2,6 +2,8 @@
 name = "coinbase-mesh"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "Models and APIs generated against the Coinbase Mesh specification"
 
 [dependencies]
 reqwest = { version = "^0.12", features = ["json", "multipart"] }
